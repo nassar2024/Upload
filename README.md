@@ -16,7 +16,7 @@ This is a Laravel application powered with Vite and includes queue workers, SQLi
 ---
 
 ## 📸 Screenshots
-
+- **Watch Demo**  
 ![App Demo](screenshots/demo.gif)
 
 > Here's a glimpse of the application UI:
