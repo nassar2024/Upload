@@ -1,0 +1,34 @@
+{
+    "private": true,
+    "type": "module",
+"scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start-all": "concurrently \"php artisan serve\" \"npm run dev\" \"php artisan reverb:start --debug\" \"php artisan queue:work \""
+},
+    "devDependencies": {
+        "@inertiajs/vue3": "^2.0.0",
+        "@tailwindcss/forms": "^0.5.3",
+        "@tailwindcss/vite": "^4.0.0",
+        "@vitejs/plugin-vue": "^5.0.0",
+        "autoprefixer": "^10.4.12",
+        "axios": "^1.9.0",
+        "concurrently": "^9.1.2",
+        "laravel-echo": "^2.1.0",
+        "laravel-vite-plugin": "^1.2.0",
+        "postcss": "^8.4.31",
+        "pusher-js": "^8.4.0",
+        "tailwindcss": "^3.2.1",
+        "vite": "^6.2.4",
+        "vue": "^3.4.0"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.7.2",
+        "@tsparticles/engine": "^3.8.1",
+        "@tsparticles/slim": "^3.8.1",
+        "@tsparticles/vue3": "^3.0.1",
+        "tsparticles": "^3.8.1",
+        "vue-router": "^4.5.1",
+        "vue-spinner": "^1.0.4"
+    }
+}
